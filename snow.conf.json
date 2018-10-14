@@ -1,26 +1,28 @@
 {
   "snow": {
-    "instance": "",
-    "auth": "",
-    "endpoint": ""
+    "instance": "dev35979.service-now.com",
+    "auth": "Basic YWRtaW46UmVkZWVtOTQ=",
+    "endpoint": "x_21414_itcc_index.do"
   },
   "application": {
-    "name": "",
-    "scope": "",
-    "sys_id": ""
+    "name": "ITCC",
+    "scope": "x_21414_itcc",
+    "sys_id": "b496da7adb542300f6b873ffbf961913"
   },
   "files": {
     "html": {
-      "index": ""
+      "index": "e735f4f4db242700f6b873ffbf96196f"
     },
     "js": {
-      "inline": "",
-      "polyfills": "",
-      "vendor": "",
-      "main": ""
+      "inline": "20e67470db242700f6b873ffbf9619df",
+      "polyfills": "06292cbcdbe02700f6b873ffbf9619ee",
+      "vendor": "909470f4db242700f6b873ffbf961903",
+      "main": "4fa7e4fcdbe02700f6b873ffbf961929",
+      "runtime": "c2a4b0f4db242700f6b873ffbf961951",
+      "sw-register":"b4b4b0f4db242700f6b873ffbf9619d9"
     },
     "css": {
-      "styles": ""
+      "styles": "9f57e4fcdbe02700f6b873ffbf961926"
     }
   }
 }

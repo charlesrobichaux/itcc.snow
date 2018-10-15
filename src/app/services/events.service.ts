@@ -1,8 +1,10 @@
 import { Inject, Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/observable/of';
+import { HttpClient } from '@angular/common/http';
 @Injectable()
 export class EventSesrvice {
+
     public getEvents(): Observable<any> {
         const dateObj = new Date();
         const yearMonth = dateObj.getUTCFullYear() + '-' + (dateObj.getUTCMonth() + 1);
